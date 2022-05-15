@@ -1,0 +1,146 @@
+@media(max-width: 1095px){
+	.header .title{
+		font-size: 20px;
+	}
+}
+@media(max-width: 930px){
+	.header .title{
+		margin: 0 10px;
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+@media(max-width: 930px){
+	.header .title{
+		margin: 0 10px;
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+@media(max-width: 1050px){
+	.dp .main .title{
+		padding-top: 100px;
+	}
+	.main .title{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.main .content{
+		max-width: 100%;
+	}
+	.menu-burger{
+		display: block;
+	}
+	.top-line{
+		display: none;
+	}
+	.row--small{
+		padding: 30px;
+		box-sizing: border-box;
+	}
+	.driver-right{
+		margin-top: 30px;
+	}
+	.driver-left{
+		flex-direction: row;
+	}
+	.driver-right{
+		margin-top: 0;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.main .row--small{
+		flex-direction: column;
+	}
+	.main .menu{
+		display: none;
+		margin-top: 20px;
+		width: 100%;
+		max-width: 100%;
+	}
+	.footer .grid > div{
+		margin: 10px;
+		text-align: center;
+	}
+	.shedule h2{
+		padding-top: 10px;
+	}
+}
+@media(max-width: 641px){
+	.grid{
+		flex-direction: column;
+	}
+	
+	.main .content{
+		max-width: 100%;
+	}
+	.main .content img{
+		width: 70%;
+		margin: 0 auto;
+		display: block;
+		float: none;
+		padding: 0 20px;
+	}
+	.menu{
+		display: none;
+	}
+	.shedule h2{
+		padding-top: 0;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.driver-left{
+		flex-direction: row;
+	}
+	
+	.main .row{
+		padding-bottom: 0;
+	}
+	.footer .row{
+		padding: 0;	
+		text-align: center;
+	}
+	.footer .grid > div{
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.driver-page-photo img{
+		width: 100%!important;
+		padding: 0!important;
+	}
+}
+@media(max-width: 800px){
+	.driver-page-text{
+		padding-left: 0;
+	}
+	.driver-page-table{
+		width: 100%;
+	}
+	.driver-page-my{
+		margin-left: 220px;
+	}
+	.driver-page-name{
+		left: 250px;
+	}
+	.driver-page-table tr td:last-child{
+		padding-left: 30px;
+	}
+}
+@media(max-width: 800px){
+	.driver-page-name{
+		top: -90px;
+	}
+
+}
+@media(max-width: 640px){
+	.row,
+	.row--small{
+		min-width: 640px;
+		width: 640px;
+	}
+	.header .row{
+		flex-direction: row;
+	}
+}

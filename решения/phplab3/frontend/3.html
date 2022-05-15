@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>lab2_3</title>
+    <meta charset="utf-8">
+    <script src="_js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body style="border: black 3px solid; border-radius: 20px; width: 500px; min-height: 100px; padding: 5px 10px; margin: 10px auto">
+
+<form method="POST">
+    Добавление новости.<br>
+    <label><input type="text" id="name" name="third_name">:Название</label><br>
+    <label><input type="text" id="lid" name="third_lid">:Лид</label><br>
+    <label><input type="text" id="body" name="third_body">:Содержание</label><br>
+    <label><input type="text" id="rubric" name="third_rubric">:Рубрика</label><br>
+    <label><input type="text" id="date" name="third_date">:Дата(формат 00.00.0000)</label><br>
+    <input type="button" name="third_sub" onclick="third()" value="Ввод">
+    <input type="button" name="menu" onclick="back()" value="Назад">
+</form>
+
+<div id="main"></div>
+
+</body>
+</html>
